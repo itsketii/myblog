@@ -1,0 +1,16 @@
+# Environnement virtuel & cache Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django local & généré
+*.sqlite3
+**/staticfiles/
+**/media/
+
+# Éditeur / système
+.vscode/
+.DS_Store
+Thumbs.db
